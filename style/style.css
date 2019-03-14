@@ -1,0 +1,30 @@
+/*CSS style*/
+
+body {
+    margin: 0px auto;
+    padding: none;
+}
+
+
+/*header Css*/
+
+header {
+    background: whitesmoke;
+}
+
+.top-wapper {
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+    font-size: 14px;
+}
+
+.top-wapper a {
+    color: black;
+    list-style: none;
+    //letter-spacing: 1px;
+    margin: 3px 3px 3px 3px;
+}
+
+#logo-wapper {
+    font-size: 24px;
+}
