@@ -1,132 +1,117 @@
-/*CSS style*/
-
-body {
-    margin: 0px auto;
-    padding: none;
-}
-
-
-/*header Css*/
-
-header {
-    background: whitesmoke;
-    padding-bottom: 7px;
-}
-
-.top-wapper {
-    text-align: center;
-    padding: 3px 3px 3px 3px;
-    font-size: 14px;
-}
-
-.top-wapper a {
-    color: black;
-    list-style: none;
-    margin: 3px 3px 3px 3px;
-}
-
-#logo-wapper {
-    font-size: 24px;
-}
-
-input[type=text],
-select {
-    width: 100%;
-    padding: 7px 10px;
-    margin: 6px 0;
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-sizing: border-box;
-}
-
-
-/*Section main css*/
-
-.slider-animation {
-    height: 380px;
-    background-color: orangered;
-    -webkit-animation-name: example;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 30s;
-    /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 25.0s;
-    animation-iteration-count: infinite;
-}
-
-
-/* Safari 4.0 - 8.0 */
-
-@-webkit-keyframes example {
-    0% {
-        background-color: red;
-    }
-    25% {
-        background-color: yellow;
-    }
-    50% {
-        background-color: blue;
-    }
-}
-
-
-/* Standard syntax */
-
-@keyframes example {
-    0% {
-        background-color: red;
-    }
-    25% {
-        background-color: yellow;
-    }
-    50% {
-        background-color: blue;
-    }
-}
-
-
-/*.slider-box {
+        /*CSS style*/
+        
+        body {
+            margin: 0px auto;
+            padding: none;
+        }
+        /*header Css*/
+        
+        header {
+            background: whitesmoke;
+            padding-bottom: 7px;
+        }
+        
+        .top-wapper {
+            text-align: center;
+            padding: 3px 3px 3px 3px;
+            font-size: 14px;
+        }
+        
+        .top-wapper a {
+            color: black;
+            list-style: none;
+            margin: 3px 3px 3px 3px;
+        }
+        
+        #logo-wapper {
+            font-size: 24px;
+        }
+        
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 7px 10px;
+            margin: 6px 0;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        /*Section main css*/
+        
+        .slider-animation {
+            height: 380px;
+            background-color: orangered;
+            -webkit-animation-name: example;
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 30s;
+            /* Safari 4.0 - 8.0 */
+            animation-name: example;
+            animation-duration: 25.0s;
+            animation-iteration-count: infinite;
+        }
+        /* Safari 4.0 - 8.0 */
+        
+        @-webkit-keyframes example {
+            0% {
+                background-color: red;
+            }
+            25% {
+                background-color: yellow;
+            }
+            50% {
+                background-color: blue;
+            }
+        }
+        /* Standard syntax */
+        
+        @keyframes example {
+            0% {
+                background-color: red;
+            }
+            25% {
+                background-color: yellow;
+            }
+            50% {
+                background-color: blue;
+            }
+        }
+        /*.slider-box {
     //  height: 380px;
     // width: 980px;
     // margin: 0px 50px;
     // padding: none;
 }
 */
-
-
-/*Menu Css*/
-
-.menu-bar {
-    background: white;
-    height: 380px;
-}
-
-.menu {
-    line-height: 23px;
-    text-align: left;
-    background-color: aqua;
-    text-align: start;
-    margin: 0px;
-    left: 0;
-    right: 0;
-    padding: none;
-    bottom: 0;
-}
-
-.menu li {
-    list-style: none;
-    font-size: 14px;
-    // padding: 2px 0px 0px 0px;
-}
-
-.menu li a {
-    color: black;
-    list-style-type: armenian;
-    list-style: none;
-    text-decoration: none;
-}
-
-menu li a :hover {
-    color: red;
-}
+        /*Menu Css*/
+        
+        .menu-bar {
+            background: white;
+            height: 400px;
+        }
+        
+        .menu {
+            line-height: 23px;
+            text-align: left;
+        }
+        
+        .menu li {
+            list-style: none;
+            font-size: 14px;
+        }
+        
+        .menu li a {
+            color: black;
+            list-style-type: armenian;
+            list-style: none;
+            text-decoration: none;
+        }
+        
+        menu li a :hover {
+            color: red;
+        }
+        /*Second Section*/
+        
+        .second-content {
+            background-image: url("../images/shopping-2.jpg");
+        }
