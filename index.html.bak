@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Daraz Ecommerce</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-wapper">
+                        <a href="#">SAVE MORE ON APP</a>
+                        <a href="#">SEll ON DARAZ</a>
+                        <a href="#">CUSTOMER CARE</a>
+                        <a href="#">TRACK ORDER </a>
+                        <a href="#">LOGIN IN </a>
+                        <a href="#">SIGN UP </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div id="logo-wapper">
+                        <p>Ecommerce</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="search-box">
+                        <input type="text" placeholder="Yaha Sab Kuch Milta Hai" maxlength="30">
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="cart-icons">
+                        <img src="images/cart-icon.png">
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <img src="images/bonus.png">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="slider-animation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="slider-box">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -10,7 +10,7 @@ body {
 
 header {
     background: whitesmoke;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
 }
 
 .top-wapper {
@@ -38,4 +38,57 @@ select {
     border: 1px solid black;
     border-radius: 10px;
     box-sizing: border-box;
+}
+
+
+/*Section main css*/
+
+.slider-animation {
+    height: 380px;
+    background-color: orangered;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 30s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 25.0s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes example {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+}
+
+
+/*.slider-box {
+    //  height: 380px;
+    // width: 980px;
+    // margin: 0px 50px;
+    // padding: none;
 }
