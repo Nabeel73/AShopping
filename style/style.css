@@ -92,3 +92,41 @@ select {
     // margin: 0px 50px;
     // padding: none;
 }
+*/
+
+
+/*Menu Css*/
+
+.menu-bar {
+    background: white;
+    height: 380px;
+}
+
+.menu {
+    line-height: 23px;
+    text-align: left;
+    background-color: aqua;
+    text-align: start;
+    margin: 0px;
+    left: 0;
+    right: 0;
+    padding: none;
+    bottom: 0;
+}
+
+.menu li {
+    list-style: none;
+    font-size: 14px;
+    // padding: 2px 0px 0px 0px;
+}
+
+.menu li a {
+    color: black;
+    list-style-type: armenian;
+    list-style: none;
+    text-decoration: none;
+}
+
+menu li a :hover {
+    color: red;
+}
