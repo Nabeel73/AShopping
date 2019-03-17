@@ -3,28 +3,41 @@
         body {
             margin: 0px auto;
             padding: none;
+            font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         /*header Css*/
         
         header {
             background: whitesmoke;
-            padding-bottom: 7px;
+            padding-bottom: 25px;
         }
         
         .top-wapper {
             text-align: center;
             padding: 3px 3px 3px 3px;
             font-size: 14px;
+            font-weight: bold;
         }
         
         .top-wapper a {
             color: black;
             list-style: none;
-            margin: 3px 3px 3px 3px;
+            margin: 3px 3px 3px 10px;
+            text-decoration: none;
+        }
+        
+        .top-wapper a:hover {
+            color: red;
         }
         
         #logo-wapper {
             font-size: 24px;
+            color: orangered;
+            padding-top: 10px;
+        }
+        
+        .search-box {
+            padding: 5px 3px 3px 3px;
         }
         
         input[type=text],
@@ -33,8 +46,8 @@
             padding: 7px 10px;
             margin: 6px 0;
             display: inline-block;
-            border: 1px solid black;
-            border-radius: 10px;
+            border: 0.5px solid orangered;
+            border-radius: 5px;
             box-sizing: border-box;
         }
         /*Section main css*/
@@ -44,50 +57,52 @@
             background-color: orangered;
             -webkit-animation-name: example;
             /* Safari 4.0 - 8.0 */
-            -webkit-animation-duration: 30s;
+            -webkit-animation-duration: 3s;
             /* Safari 4.0 - 8.0 */
             animation-name: example;
-            animation-duration: 25.0s;
+            animation-duration: 18s;
             animation-iteration-count: infinite;
         }
         /* Safari 4.0 - 8.0 */
         
         @-webkit-keyframes example {
-            0% {
-                background-color: red;
+            50% {
+                background-color: #FFC300;
             }
             25% {
-                background-color: yellow;
+                background-color: lightgray;
             }
             50% {
-                background-color: blue;
+                background-color: gray;
             }
         }
         /* Standard syntax */
         
         @keyframes example {
-            0% {
-                background-color: red;
+            00% {
+                background-color: gold;
             }
             25% {
-                background-color: yellow;
+                background-color: lightgrey;
             }
             50% {
-                background-color: blue;
+                background-color: gainsboro;
             }
         }
         /*.slider-box {
-    //  height: 380px;
-    // width: 980px;
-    // margin: 0px 50px;
-    // padding: none;
-}
-*/
+            //  height: 380px;
+            // width: 980px;
+            // margin: 0px 50px;
+            // padding: none;
+            //position: absolute;
+        }
+        
+        */
         /*Menu Css*/
         
         .menu-bar {
             background: white;
-            height: 400px;
+            height: 380px;
         }
         
         .menu {
@@ -97,21 +112,46 @@
         
         .menu li {
             list-style: none;
-            font-size: 14px;
+            font-size: 15px;
+            line-height: 28px;
         }
         
         .menu li a {
             color: black;
-            list-style-type: armenian;
             list-style: none;
             text-decoration: none;
         }
         
-        menu li a :hover {
+        .menu-bar .menu ul li a :hover {
             color: red;
         }
         /*Second Section*/
         
         .second-content {
-            background-image: url("../images/shopping-2.jpg");
+            background-color: #fcf3cf;
+            //  background-image: url("../images/shopping-2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .top-sale-products {
+            background-image: url('../images/shopping.jpg');
+            width: 100%;
+            height: 500px;
+            opacity: 0.2;
+            margin-top: 50px;
+            position: relative;
+        }
+        
+        #top-sale {
+            font-size: 30px;
+            color: red;
+            text-align: center;
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+        
+        #top-sale:hover {
+            color: orangered;
         }
