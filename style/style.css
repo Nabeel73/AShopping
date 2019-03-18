@@ -57,17 +57,17 @@
             background-color: orangered;
             -webkit-animation-name: example;
             /* Safari 4.0 - 8.0 */
-            -webkit-animation-duration: 3s;
+            -webkit-animation-duration: 1s;
             /* Safari 4.0 - 8.0 */
             animation-name: example;
-            animation-duration: 18s;
+            animation-duration: 20s;
             animation-iteration-count: infinite;
         }
         /* Safari 4.0 - 8.0 */
         
         @-webkit-keyframes example {
             50% {
-                background-color: #FFC300;
+                background-color: yellow;
             }
             25% {
                 background-color: lightgray;
@@ -86,18 +86,16 @@
                 background-color: lightgray;
             }
             50% {
-                background-color: gainsboro;
+                background-color: ;
             }
         }
         /*.slider-box {
-            //  height: 380px;
+            height: 580px;
             // width: 980px;
             // margin: 0px 50px;
             // padding: none;
             //position: absolute;
-        }
-        
-        */
+        }*/
         /*Menu Css*/
         
         .menu-bar {
