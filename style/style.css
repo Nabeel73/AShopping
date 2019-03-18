@@ -83,7 +83,7 @@
                 background-color: gold;
             }
             25% {
-                background-color: lightgrey;
+                background-color: lightgray;
             }
             50% {
                 background-color: gainsboro;
@@ -136,9 +136,9 @@
         
         .top-sale-products {
             background-image: url('../images/shopping.jpg');
-            width: 100%;
+            background-repeat: no-repeat;
             height: 500px;
-            opacity: 0.2;
+            opacity: 0.8;
             margin-top: 50px;
             position: relative;
         }
