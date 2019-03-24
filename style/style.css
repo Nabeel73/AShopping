@@ -86,7 +86,7 @@
                 background-color: lightgray;
             }
             50% {
-                background-color: ;
+                background-color: white;
             }
         }
         /*.slider-box {
@@ -100,18 +100,21 @@
         
         .menu-bar {
             background: white;
-            height: 380px;
+            min-height: 380px;
         }
         
         .menu {
-            line-height: 23px;
-            text-align: left;
+            min-height: 380px;
+        }
+        
+        .menu li:hover {
+            background-color: yellow;
         }
         
         .menu li {
             list-style: none;
             font-size: 15px;
-            line-height: 28px;
+            line-height: 31.5px;
         }
         
         .menu li a {
@@ -119,26 +122,10 @@
             list-style: none;
             text-decoration: none;
         }
-        
-        .menu-bar .menu ul li a :hover {
-            color: red;
-        }
         /*Second Section*/
         
         .second-content {
             background-color: #fcf3cf;
-            //  background-image: url("../images/shopping-2.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        .top-sale-products {
-            background-image: url('../images/shopping.jpg');
-            background-repeat: no-repeat;
-            height: 500px;
-            opacity: 0.8;
-            margin-top: 50px;
-            position: relative;
         }
         
         #top-sale {
@@ -152,4 +139,23 @@
         
         #top-sale:hover {
             color: orangered;
+        }
+        
+        .salenow {
+            background-color: #212f3c;
+            color: white;
+            text-align: center;
+            padding: 03px 0px 03px 0px;
+            font-size: 24px;
+            font-weight: bolder;
+        }
+        
+        .top-sale-products {
+            margin: none;
+        }
+        
+        .list-items {
+            list-style: none;
+            display: flex;
+            padding: 0px 0px 0px 0px;
         }
