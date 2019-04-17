@@ -1,12 +1,16 @@
+.top-products-items{
+    width: 100px;
+    height: 100px;
+    
+}
 .hovereffect {
-    width: 100%;
-    height: 100%;
-    float: left;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
     position: relative;
     text-align: center;
     cursor: default;
-    background: #42b078;
+    background: lightgray;
 }
 
 .hovereffect .overlay {
