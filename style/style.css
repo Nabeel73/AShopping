@@ -125,49 +125,51 @@
         /*Second Section*/
         
         .second-content {
-            background-color: lightskyblue;
-            height: 500px;
+            background-color: whitesmoke;
         }
         
         #top-sale {
-            font-size: 30px;
+            font-size: 24px;
             color: red;
-            text-align: center;
-            padding-top: 20px;
-            text-transform: uppercase;
-            font-weight: bolder;
+            padding-top: 18px;
         }
         
         #top-sale:hover {
-            color: orangered;
+            color: #a10505;
         }
         
         .salenow {
-            background-color: orangered;
+            background-color: #212f3c;
             /* #212f3c;*/
-            color: white;
-            padding: 0px 0px 00px 0px;
-            font-size: 20px;
-            font-weight: bold;
-            text-transform: uppercase;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 0px;
             display: flex;
+        }
+        
+        .salenow p {
+            margin: 0px 0px 0px 20px;
+            font-size: 24px;
+            color: white;
         }
         
         #clockdiv {
             display: inline-flex;
             padding: 0px 0px 0px 0px;
-            margin-left: 150px;
+            margin-left: 50px;
         }
         
         .smalltext {
             display: inline-flex;
-            margin-left: 01px;
-            text-transform: lowercase;
+            text-transform: uppercase;
+            color: whitesmoke;
+            font-size: 18px;
         }
         
         #clockdiv span {
-            background-color: black;
+            background-color: white;
             margin-left: 10px;
+            font-size: 24px;
+            color: red;
         }
         
         .top-sale-products {
