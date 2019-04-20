@@ -13,16 +13,16 @@
         }
         
         .top-wapper {
-            text-align: center;
-            padding: 20px 3px 3px 3px;
-            font-size: 14px;
-            font-weight: bold;
+            text-align: right;
+            padding: 0px 10px 0px 8px;
+            margin: 3px 3px 10px 20px;
+            font-size: 12px;
+            display: block;
         }
         
         .top-wapper a {
             color: black;
             list-style: none;
-            margin: 3px 3px 3px 10px;
             text-decoration: none;
         }
         
@@ -125,7 +125,8 @@
         /*Second Section*/
         
         .second-content {
-            background-color: #fcf3cf;
+            background-color: lightskyblue;
+            height: 500px;
         }
         
         #top-sale {
@@ -142,12 +143,31 @@
         }
         
         .salenow {
-            background-color: #212f3c;
+            background-color: orangered;
+            /* #212f3c;*/
             color: white;
-            text-align: center;
-            padding: 03px 0px 03px 0px;
-            font-size: 24px;
-            font-weight: bolder;
+            padding: 0px 0px 00px 0px;
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: flex;
+        }
+        
+        #clockdiv {
+            display: inline-flex;
+            padding: 0px 0px 0px 0px;
+            margin-left: 150px;
+        }
+        
+        .smalltext {
+            display: inline-flex;
+            margin-left: 01px;
+            text-transform: lowercase;
+        }
+        
+        #clockdiv span {
+            background-color: black;
+            margin-left: 10px;
         }
         
         .top-sale-products {
@@ -158,4 +178,9 @@
             list-style: none;
             display: flex;
             padding: 0px 0px 0px 0px;
+        }
+        
+        .third-content {
+            height: 500px;
+            background-color: thistle;
         }

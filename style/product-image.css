@@ -1,16 +1,16 @@
-.top-products-items{
-    width: 100px;
-    height: 100px;
-    
+.top-products-items {
+    height: 300px;
 }
+
 .hovereffect {
-    width: 100px;
-    height: 100px;
+    display: flex;
+    width: 100%;
+    height: 250px;
     overflow: hidden;
     position: relative;
     text-align: center;
     cursor: default;
-    background: lightgray;
+    background: lightcoral;
 }
 
 .hovereffect .overlay {
