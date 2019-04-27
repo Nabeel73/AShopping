@@ -1,0 +1,55 @@
+/*Slider Css */
+
+
+/*Section main css*/
+
+.slider-animation {
+    height: 380px;
+    background-color: orangered;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes example {
+    50% {
+        background-color: yellow;
+    }
+    25% {
+        background-color: lightgray;
+    }
+    50% {
+        background-color: gray;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+    00% {
+        background-color: gold;
+    }
+    25% {
+        background-color: lightgray;
+    }
+    50% {
+        background-color: white;
+    }
+}
+
+
+/*.slider-box {
+            height: 580px;
+            // width: 980px;
+            // margin: 0px 50px;
+            // padding: none;
+            //position: absolute;
+        }*/
