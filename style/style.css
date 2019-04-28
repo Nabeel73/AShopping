@@ -50,78 +50,6 @@
             border-radius: 5px;
             box-sizing: border-box;
         }
-        /*Section main css*/
-        
-        .slider-animation {
-            height: 380px;
-            background-color: orangered;
-            -webkit-animation-name: example;
-            /* Safari 4.0 - 8.0 */
-            -webkit-animation-duration: 1s;
-            /* Safari 4.0 - 8.0 */
-            animation-name: example;
-            animation-duration: 20s;
-            animation-iteration-count: infinite;
-        }
-        /* Safari 4.0 - 8.0 */
-        
-        @-webkit-keyframes example {
-            50% {
-                background-color: yellow;
-            }
-            25% {
-                background-color: lightgray;
-            }
-            50% {
-                background-color: gray;
-            }
-        }
-        /* Standard syntax */
-        
-        @keyframes example {
-            00% {
-                background-color: gold;
-            }
-            25% {
-                background-color: lightgray;
-            }
-            50% {
-                background-color: white;
-            }
-        }
-        /*.slider-box {
-            height: 580px;
-            // width: 980px;
-            // margin: 0px 50px;
-            // padding: none;
-            //position: absolute;
-        }*/
-        /*Menu Css*/
-        
-        .menu-bar {
-            background: white;
-            min-height: 380px;
-        }
-        
-        .menu {
-            min-height: 380px;
-        }
-        
-        .menu li:hover {
-            background-color: yellow;
-        }
-        
-        .menu li {
-            list-style: none;
-            font-size: 15px;
-            line-height: 31.5px;
-        }
-        
-        .menu li a {
-            color: black;
-            list-style: none;
-            text-decoration: none;
-        }
         /*Second Section*/
         
         .second-content {
@@ -156,7 +84,7 @@
         #shopnow {
             color: white;
             font-size: 18px;
-            margin-left: 880px;
+            margin-left: 850px;
         }
         
         #clockdiv {
@@ -193,6 +121,14 @@
         }
         
         .third-content {
-            height: 500px;
-            background-color: thistle;
+            background-color: lightskyblue;
+            height: 600px;
+        }
+        
+        .collections {
+            background-color: lightgoldenrodyellow;
+        }
+        
+        #collections {
+            padding: 5px;
         }
