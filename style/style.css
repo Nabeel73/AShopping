@@ -121,14 +121,17 @@
         }
         
         .third-content {
-            background-color: lightskyblue;
+            background-color: white;
             height: 600px;
         }
         
-        .collections {
-            background-color: lightgoldenrodyellow;
-        }
-        
         #collections {
-            padding: 5px;
+            padding-top: 0px;
+            padding-left: 5px;
+            font-size: 24px;
+            bottom: 0px;
+            width: 200px;
+            background-color: orangered;
+            color: #fff;
+            border-radius: 10px;
         }
