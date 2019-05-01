@@ -71,8 +71,6 @@
         .salenow {
             background-color: darkslategray;
             /* #212f3c;     #212f3c;*/
-            padding: 0px 0px 0px 0px;
-            margin: 0px 0px 0px 0px;
             display: flex;
         }
         
@@ -90,7 +88,6 @@
         
         #clockdiv {
             display: inline-flex;
-            padding: 0px 0px 0px 0px;
         }
         
         .smalltext {
@@ -117,7 +114,6 @@
         .list-items {
             list-style: none;
             display: flex;
-            padding: 0px 0px 0px 0px;
         }
         
         .third-content {
