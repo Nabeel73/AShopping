@@ -5,7 +5,7 @@
 
 .slider-animation {
     height: 380px;
-    background-color: orangered;
+    background-color: orange;
     -webkit-animation-name: example;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 1s;
@@ -44,12 +44,3 @@
         background-color: white;
     }
 }
-
-
-/*.slider-box {
-            height: 580px;
-            // width: 980px;
-            // margin: 0px 50px;
-            // padding: none;
-            //position: absolute;
-        }*/

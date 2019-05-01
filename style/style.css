@@ -9,15 +9,14 @@
         
         header {
             background: whitesmoke;
-            padding-bottom: 25px;
+            padding-bottom: 20px;
         }
         
         .top-wapper {
-            text-align: right;
-            padding: 0px 10px 0px 8px;
-            margin: 3px 3px 10px 20px;
-            font-size: 12px;
-            display: block;
+            margin: 8px 3px 10px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
         }
         
         .top-wapper a {
@@ -31,24 +30,26 @@
         }
         
         #logo-wapper {
+            width: 50px;
+            height: 50px;
             font-size: 24px;
             color: orangered;
             padding-top: 10px;
         }
         
-        .search-box {
-            padding: 5px 3px 3px 3px;
+        .second {
+            width: 100%;
+            background-color: #a10505;
         }
         
         input[type=text],
         select {
             width: 100%;
             padding: 7px 10px;
-            margin: 6px 0;
-            display: inline-block;
-            border: 0.5px solid orangered;
-            border-radius: 5px;
+            margin: 8px 0;
             box-sizing: border-box;
+            border: 1px solid black;
+            border-radius: 2px;
         }
         /*Second Section*/
         
@@ -90,7 +91,6 @@
         #clockdiv {
             display: inline-flex;
             padding: 0px 0px 0px 0px;
-            margin-left: 00px;
         }
         
         .smalltext {
@@ -121,7 +121,7 @@
         }
         
         .third-content {
-            background-color: white;
+            background-color: whitesmoke;
             height: 600px;
         }
         

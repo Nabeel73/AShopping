@@ -1,7 +1,9 @@
    /*Menu Css*/
    
    .menu-bar {
-       background: white;
+       background: lemonchiffon;
+       color: darkred;
+       max-height: 380px;
        min-height: 380px;
    }
    
