@@ -8,15 +8,20 @@
         /*header Css*/
         
         header {
-            background: whitesmoke;
-            padding-bottom: 20px;
+            background: lightgoldenrodyellow;
+            padding-bottom: 10px;
         }
         
         .top-wapper {
             margin: 8px 3px 10px 20px;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: bold;
             text-align: center;
+            width: 100%;
+        }
+        
+        .cart-icons {
+            display: flex;
         }
         
         .top-wapper a {
@@ -34,7 +39,6 @@
             height: 50px;
             font-size: 24px;
             color: orangered;
-            padding-top: 10px;
         }
         
         .second {
@@ -54,7 +58,7 @@
         /*Second Section*/
         
         .second-content {
-            background-color: whitesmoke;
+            background-color: lightgoldenrodyellow;
             padding-bottom: 100px;
         }
         
@@ -117,17 +121,17 @@
         }
         
         .third-content {
-            background-color: whitesmoke;
+            background-color: lightcyan;
             height: 600px;
         }
         
         #collections {
             padding-top: 0px;
             padding-left: 5px;
-            font-size: 24px;
+            font-size: 18px;
             bottom: 0px;
-            width: 200px;
-            background-color: orangered;
+            width: 150px;
+            background-color: red;
             color: #fff;
-            border-radius: 10px;
+            border-radius: 8px;
         }

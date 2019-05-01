@@ -22,9 +22,8 @@
 
 .cart-box {
     width: 100%;
-    height: 50px;
-    padding-top: 12px;
-    background-color: orangered;
+    height: 25px;
+    background-color: darkslategray;
     color: #fff;
     letter-spacing: 2px;
     font-weight: bold;
