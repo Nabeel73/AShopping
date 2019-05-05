@@ -4,11 +4,12 @@
             margin: 0px auto;
             padding: none;
             font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background: whitesmoke;
+            /* lightyellow;*/
         }
         /*header Css*/
         
         header {
-            background: lightgoldenrodyellow;
             padding-bottom: 10px;
         }
         
@@ -21,7 +22,11 @@
         }
         
         .cart-icons {
-            display: flex;
+            padding: 0px;
+            display: inline-flex;
+            margin-top: 10px;
+            width: 100px;
+            height: 30px;
         }
         
         .top-wapper a {
@@ -53,7 +58,8 @@
             margin: 8px 0;
             box-sizing: border-box;
             border: 1px solid black;
-            border-radius: 2px;
+            border-radius: 5px;
+            background-color: #fff;
         }
         /*Second Section*/
         
@@ -121,8 +127,7 @@
         }
         
         .third-content {
-            background-color: lightcyan;
-            height: 600px;
+            padding-bottom: 100px;
         }
         
         #collections {
@@ -134,4 +139,14 @@
             background-color: red;
             color: #fff;
             border-radius: 8px;
+        }
+        
+        #collections:hover {
+            color: white;
+            background-color: black;
+        }
+        
+        .forth-content {
+            height: 600px;
+            background-color: lightsalmon;
         }
