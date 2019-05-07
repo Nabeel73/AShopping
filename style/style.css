@@ -150,3 +150,9 @@
             height: 600px;
             background-color: lightsalmon;
         }
+        /*footer*/
+        
+        .footer {
+            background-color: azure;
+            height: 200px;
+        }
