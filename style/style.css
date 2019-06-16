@@ -93,6 +93,8 @@
         #shopnow {
             color: white;
             font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
             margin-left: 850px;
         }
         
@@ -148,7 +150,7 @@
         
         .forth-content {
             height: 600px;
-            background-color: lightsalmon;
+            background-color: lightyellow;
         }
         /*footer*/
         
