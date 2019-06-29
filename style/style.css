@@ -155,6 +155,16 @@
         /*footer*/
         
         .footer {
-            background-color: azure;
-            height: 200px;
+            background-color: #1b4f72;
+            padding: 15px 0px 0px 0px;
+        }
+        
+        .ashopping {
+            color: white;
+            font-size: 13px;
+            padding: 15px 0px 0px 0px;
+        }
+        
+        .footer-list {
+            list-style: none;
         }
