@@ -155,7 +155,7 @@
         /*footer*/
         
         .footer {
-            background-color: #1b4f72;
+            background-color: #154360;
             padding: 15px 0px 0px 0px;
         }
         
@@ -167,4 +167,26 @@
         
         .footer-list {
             list-style: none;
+        }
+        
+        .footer span img {
+            width: 180px;
+        }
+        
+        span h5 {
+            background-color: #fff;
+            color: #a00000;
+            padding: 5px 5px 5px 5px;
+            font-weight: bolder;
+        }
+        
+        .payment-method {
+            padding: 10px 0px 0px 0px;
+            height: 500px;
+            background: white;
+        }
+        
+        .payment-method span img {
+            width: 250px;
+            height: 150px;
         }
