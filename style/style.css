@@ -98,7 +98,7 @@
             }
             
             .clock {
-                background: #000f6d;
+                background: black;
             }
             
             #clockdiv {
@@ -133,7 +133,7 @@
             }
             
             .third-content {
-                padding-bottom: 20px;
+                margin: 0px 00px 100px 0px;
             }
             
             #collections {
@@ -141,7 +141,7 @@
                 display: flex;
                 font-size: 18px;
                 bottom: 0px;
-                background-color: darkblue;
+                background-color: #000f6d;
                 color: #fff;
                 border-radius: 0px;
             }
@@ -154,13 +154,29 @@
             .forth-content {
                 margin: none;
                 padding: none;
-                background: lightslategrey;
+                background: #fff;
             }
             
-            .embed-responsive embed-responsive-21by9 {
-                padding: none;
-                margin: none;
-                height: 100px;
+            .embed-responsive {
+                height: 427px;
+            }
+            
+            .Top-brands h2 {
+                text-align: center;
+                text-transform: uppercase;
+                margin: 1px;
+            }
+            
+            .Top-brands span img {
+                width: 100%;
+            }
+            
+            .brands {
+                margin: 15px 5px 5px 5px;
+            }
+            
+            .Top-brands ul li {
+                list-style: none;
             }
             /*footer*/
             

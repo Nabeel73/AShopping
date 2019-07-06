@@ -34,11 +34,11 @@
     
     .cart-box {
         width: 100%;
-        height: 25px;
-        background-color: darkslategray;
+        height: 24px;
+        background-color: slateblue;
         color: #fff;
-        letter-spacing: 2px;
-        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 1px 1px 1px 1px;
     }
     
     .cart-box:hover {
